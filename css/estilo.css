@@ -18,8 +18,13 @@ a{ text-decoration: none;
 header{
     
     background-color: aqua;
+    display: flex;
 
 }
+
+/* Contenedores principales*/
+
+
 .PrimerSeccion{ 
 background-color: rgb(218, 60, 60);
 
@@ -69,3 +74,6 @@ background-color: aqua;
 background-color: blue;
 
 }
+
+/* Sub contenedores*/
+
