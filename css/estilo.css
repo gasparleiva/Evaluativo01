@@ -7,6 +7,8 @@
 
 
 }
+/* limpieza de propiedades*/ 
+
 
 a{ text-decoration: none;
     color: black;
@@ -19,7 +21,7 @@ header{
     
     background-color: aqua;
     display: flex;
-
+    justify-content: space-evenly
 }
 
 /* Contenedores principales*/
