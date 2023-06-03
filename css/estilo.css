@@ -21,27 +21,36 @@ a{ text-decoration: none;
 header{
     
     background-color: rgb(0, 0, 0);
-    padding: 12px;
+    padding: 2% 0;
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-between;
+    font-size: 12px;
+    
 }
 
 /* Contenedores principales*/
 
 .navcolor{
     color: rgb(255, 255, 255);
+    padding-right: 22px;
+    
+}
+
+.navcolor2{
+    color: rgb(255, 255, 255);
+    padding-right: 0px;
 }
 
 body{
     
     background-color: black;
-
     }
 
 .PrimerSeccion{ 
     display: flex;
 
     background-color: rgb(218, 60, 60);
+    justify-content: center;
     
 
 }
@@ -106,12 +115,30 @@ background-color: blue;
 
 .tamañoiconos { 
     width:;
-    height: 16px;
-
-
+    height: 17px;
+    margin-top: 10px;
+    padding-left: 5px;
 }
 
 .tamañoasterisco {
     height: 40px;
     transform: rotate(90deg);
+    margin-right: 35px;
+}
+
+.Espaciosheader {
+    margin-top: 10px;
+    justify-content: space-between;
+
+}
+
+.contenedorgeneral {
+    margin-right: 16.5%;
+    margin-left: 16.5%;
+
+}
+.acomodariconos {
+    justify-content: space-between;
+
+
 }
