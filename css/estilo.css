@@ -17,24 +17,39 @@ a{ text-decoration: none;
 }
 
 
+
 header{
     
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
+    padding: 12px;
     display: flex;
     justify-content: space-evenly
 }
 
 /* Contenedores principales*/
 
+.navcolor{
+    color: rgb(255, 255, 255);
+}
+
+body{
+    
+    background-color: black;
+
+    }
 
 .PrimerSeccion{ 
-background-color: rgb(218, 60, 60);
+    display: flex;
+
+    background-color: rgb(218, 60, 60);
+    
 
 }
 
 .SegundoSeccion{
 
     background-color: blue;
+    display: grid;
 }
 
 .TercerSeccion{ 
@@ -79,3 +94,24 @@ background-color: blue;
 
 /* Sub contenedores*/
 
+.Primerdivprimerseccion{
+    display: flex;
+
+
+}
+
+.probandocolor {
+    background-color: blue;
+}
+
+.tamañoiconos { 
+    width:;
+    height: 16px;
+
+
+}
+
+.tamañoasterisco {
+    height: 40px;
+    transform: rotate(90deg);
+}
